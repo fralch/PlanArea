@@ -5,14 +5,14 @@ body {
 }
 
 h2 {
-  background-color: #FF504D;
+  background-color: #3187c9;
   color: #fff;
 }
 .title {
   text-align: center;
   margin: 0;
   padding: 0.3em;
-  font-size: 22px;
+  font-size: 22px;  
 }
 #txtarea textarea {
   width: 85%;
@@ -20,7 +20,7 @@ h2 {
   margin: 5% 5% 5% 5%;
 }
 #txtarea a {
-  background-color: #FF504D;
+  background-color: #3187c9;
   text-decoration: none;
   color: #fff;
   font-size: 20px;

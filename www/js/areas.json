@@ -1,0 +1,22 @@
+{"areas": [
+
+		{
+			"id": 1, 
+			"titulo": "JUVENTUD",
+			"descrip": "Plantee metas en su vida relacionadas con estos tres aspectos. Utilice la Tarjeta del Plan del Area para escribir sus metas"
+		},
+
+		{
+			"id": 2, 
+			"titulo": "AUTOSUFICIENCIA",
+			"descrip": "Plantee metas en su vida relacionadas con estos tres aspectos. Utilice la Tarjeta del Plan del Area para escribir sus metas"
+		},
+
+		{
+			"id": 3, 
+			"titulo": "ORDENANZAS",
+			"descrip": "Plantee metas en su vida relacionadas con estos tres aspectos. Utilice la Tarjeta del Plan del Area para escribir sus metas"
+		}
+
+	
+]}
