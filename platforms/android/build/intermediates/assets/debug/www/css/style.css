@@ -1,1 +1,46 @@
-/* Empty. Add your own CSS if you like */
+body {
+  background-color: #ff9c25;
+  font-family: sans-serif, arial;
+  margin: 0;
+}
+
+h2 {
+  background-color: #FF504D;
+  color: #fff;
+}
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 0.3em;
+  font-size: 22px;
+}
+#txtarea textarea {
+  width: 85%;
+  height: 100px;
+  margin: 5% 5% 5% 5%;
+}
+#txtarea a {
+  background-color: #FF504D;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 8% 5% 5% 5%;
+  padding: 0.5em 3.3em;
+  border-radius: 10px;
+}
+#pie {
+  text-align: center;
+  margin-top: 4em;
+  padding: 0.3em;
+  font-size: 10px;
+  color: #fff;
+}
+@media screen and (min-width: 320px) {
+  #txtarea a {
+  margin: 8% 15% 5% 15%;
+  padding: 0.5em 3.3em;
+  }
+  #txtarea textarea {
+  height: 200px;
+  }
+}

@@ -1,4 +1,4 @@
-	$.ajax({
+/*	$.ajax({
   		url:"js/areas.json",
   		dataType: 'json',
   		type: 'get',
@@ -12,17 +12,24 @@
   				};
   			});
   		}
-  	});
+  	});*/
 
 $(document).ready(mifuncion);
 
 function mifuncion() {
 
-  $("a").click(function() {
-    var x = $("textarea").val();
-    console.log(x);
+  if (localStorage.getItem('meta1')) {
+      $('#txtarea textarea').html(localStorage.getItem('meta1'));
+    }
+    $('#txtarea textarea').html("pplantee metas en su vida relacionadas con estos tres aspectos. Utilice la Tarjeta del Plan del Area para escribir sus metas.")
+  
 
-    $.ajax({
+  $("a").click(function() {
+    localStorage.setItem('meta1', $('#txtarea textarea').val());
+    var mensa = $('#txtarea textarea').val();
+    console.log(mensa);
+
+    /*$.ajax({
       url:"js/areas.json",
       dataType: 'json',
       type: 'post',
@@ -35,6 +42,8 @@ function mifuncion() {
 
           });
         }
-      })
+      })*/
+
+
   });
 }

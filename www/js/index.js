@@ -3,4 +3,4 @@ function redireccionar()
 {
 	location.href=pagina
 } 
-setTimeout ("redireccionar()", 3000);
+setTimeout ("redireccionar()", 3500);
